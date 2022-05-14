@@ -1,8 +1,8 @@
 {
-  "name": "ᴀɴᴏɴʏᴍᴏᴜs ᴍᴜsɪᴄ",
+  "name": "MahsoomXXXXMusicBot",
   "description": "A Telegram Bot to play audios and videos in telegram videochats.",
   "keywords": ["music", "voicechat", "telegram"],
-  "logo": "https://telegra.ph/file/d6ff45f5be2b42fcc2ffb.jpg",
+  "logo": "https://telegra.ph/file/9345f3f3eeaa6f47de344.jpg",
   "repository": "https://github.com/anonymousteambot/AnonMusic",
   "stack": "container",
   "env": {
@@ -25,12 +25,12 @@
     "SUPPORT": {
       "description": "Username of the chat where users will go and disturb you.(without @)",
       "required": true,
-      "value": "DevilsHeavenMF"
+      "value": "mahsoombotupdate"
     },
     "OWNER_ID": {
       "description": "Your Telegram ID",
       "required": true,
-      "value": "1356469075"
+      "value": "5176081390"
     }
   }
 }
