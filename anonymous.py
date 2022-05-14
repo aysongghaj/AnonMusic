@@ -41,12 +41,12 @@ SUPPORT = os.environ["SUPPORT"]
 LIVE_CHATS = []
 
 START_TEXT = """━━━━━━━━━━━━━━━━━━━━━━
-[🖤](https://telegra.ph/file/d6ff45f5be2b42fcc2ffb.jpg) ʜᴇʏ, <b>{}</b> 
+[🖤](https://telegra.ph/file/7249a3cf68e3028f9aec1.mp4) ʜᴇʏ, <b>{}</b> 
 
 ᴀ ғᴀsᴛ & sᴍᴏᴏᴛʜ ᴠᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩs.
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴍᴀᴅᴇ ʙʏ​ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](tg://user?id={})
+┣★ ᴍᴀᴅᴇ ʙʏ​ : [MAHSOOM](tg://user?id={})
 ┗━━━━━━━━━━━━━━━━━┛
 
 ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.
@@ -57,14 +57,14 @@ START_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                        "🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ 🥺", url="https://t.me/DeviLal_Robot?startgroup=true")
+                        "🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ 🥺", url="https://t.me/MahsoomXXXXMusicbot?startgroup=true")
         ],
         [
             InlineKeyboardButton("🧐 ʜᴇʟᴩ 🧐", callback_data=" help_cb"),
             InlineKeyboardButton("💔 sᴜᴩᴩᴏʀᴛ​ 💔", url=f"https://t.me/{SUPPORT}")
         ],
         [
-            InlineKeyboardButton("🙄 sᴏᴜʀᴄᴇ 🙄", url="https://telegra.ph/file/b2a4f66615d038f77bb46.mp4")
+            InlineKeyboardButton("🙄 sᴏᴜʀᴄᴇ 🙄", url="https://telegra.ph/file/0f36a5261f9aa07a6fd7a.mp4")
         ]
     ]
 )
@@ -249,7 +249,7 @@ async def start_private(_, message):
 async def start_group(_, message):
     await message.delete()
     fuk = "<b>ᴩᴏɴɢ ʙᴀʙʏ !</b>"
-    await message.reply_photo(photo="https://telegra.ph/file/d6ff45f5be2b42fcc2ffb.jpg", caption=fuk)
+    await message.reply_photo(photo="https://telegra.ph/file/8f1aec1b72dfde47847d0.mp4", caption=fuk)
 
 
 @bot.on_message(filters.command(["join", "userbotjoin", "assistant", "ass"]) & filters.group)
@@ -494,7 +494,7 @@ async def help_cmds(_, query: CallbackQuery):
 » /join or /userbotjoin - ʀᴇǫᴜᴇsᴛs ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ᴊᴏɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.
 » /restart - ʀᴇsᴛᴀʀᴛs ᴛʜᴇ ʙᴏᴛ.
 
-🥵 <b><u>ᴍᴀᴅᴇ ʙʏ 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦</u></b> 🥵""")
+🥵 <b><u>ᴍᴀᴅᴇ ʙʏ MAHSOOM</u></b> 🥵""")
 
 
 @bot.on_message(filters.command("restart"))
