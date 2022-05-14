@@ -60,7 +60,7 @@ START_BUTTONS = InlineKeyboardMarkup(
                         "🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ 🥺", url="https://t.me/MahsoomXXXXMusicbot?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🧐 ʜᴇʟᴩ 🧐", callback_data=" help_cb"),
+            InlineKeyboardButton("🧐 ʜᴇʟᴩ 🧐", callback_data="Commands Menu"),
             InlineKeyboardButton("💔 sᴜᴩᴩᴏʀᴛ​ 💔", url=f"https://t.me/{SUPPORT}")
         ],
         [
@@ -249,7 +249,7 @@ async def start_private(_, message):
 async def start_group(_, message):
     await message.delete()
     fuk = "<b>ᴩᴏɴɢ ʙᴀʙʏ !</b>"
-    await message.reply_photo(photo="https://telegra.ph/file/8f1aec1b72dfde47847d0.mp4", caption=fuk)
+    await message.reply_photo(photo="https://telegra.ph/file/9345f3f3eeaa6f47de344.jpg", caption=fuk)
 
 
 @bot.on_message(filters.command(["join", "userbotjoin", "assistant", "ass"]) & filters.group)
